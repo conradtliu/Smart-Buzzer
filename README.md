@@ -6,7 +6,7 @@ Has this ever happened to you? Someone (friend/delivery person/ etc) is trying t
 Features include:
 * PIN password
 * Voice Password
-* Failsafe Call Feature - Call residents if passwords do not work for manual entry
+* Fail-Safe Call Feature - Call residents if passwords do not work for manual entry
 * [Optional] Text Notifications for Callbox Entry Attempts
 
 ## Setting Up
@@ -45,5 +45,6 @@ This is the basic version of a smart buzzer for your apartment/complex callbox. 
 * Multiple attempts for voice password
 * Authorized Caller Verification
 * Rotating PINS and Voice Passwords
+
 Feel free to play around with this and see how you can make this more fun and engaging!
 
