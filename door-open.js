@@ -11,9 +11,6 @@ exports.handler = function(context, event, callback) {
         cleanSpeechResult = cleanString.toLowerCase();
         confidence = event.Confidence;
         isVoice = true;
-  
-        console.log(cleanSpeechResult);
-        console.log(confidence);
     }  
 
   
