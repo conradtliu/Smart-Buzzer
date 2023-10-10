@@ -11,7 +11,7 @@ exports.handler = function(context, event, callback) {
     
      //Gather both speech and digit entry from user
     twiml.gather({
-      action: `/door-open?attempt=${attempt}`,
+      action: `/door-open`,
       hints: context.PASSPHRASE,
       input: 'dtmf speech', //Prioritizes PIN over Speech, can be reversed
       numDigits: '4',
